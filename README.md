@@ -24,5 +24,15 @@ serāo penalizados, com desconto de até 20% dos pontos.
 O Metabase oferece uma interface intuitiva e amigável, facilitando a criação de visualizações de dados mesmo para usuários não técnicos, como pode ser o caso de algum consultor cliente. Além disso, sua integração fácil com diversas fontes de dados permite uma análise abrangente em um único ambiente. Assim, temos uma fácil usabilidade e integração com os bancos de dados do Redshift que está sendo utilizado na arquitetura da solução, tornando-o uma escolha eficiente para a visualização de dados para o projeto. Para fins de demonstração, foi desenvolvida a partir do Metabase a visualização de uma VIEW criada no Redshift, essa que ajudará a encontrar o estabelecimentos com o maior volume de vendas de acordo com os dados fornecidos.
 
 ## Visualização
-Para 
+Para acessar a visualização do gráfico clique nesse link: 
+http://ec2-52-3-247-124.compute-1.amazonaws.com/question/77-valor-vendido-por-nome-fantasia 
+
+![image](https://github.com/VitorMoura01/M8-metabase-dataviz/assets/99188092/d2ef5d46-d5ec-4f70-8475-66f5a936e005)
+
+Nesse gráfico é possível visualizar os nomes fantasias com maior número de vendas. Como pode se observar, as empresas com maior volume de vendas são
+- Sabor caseiro
+- Restaurante bom sabor
+- Restaurante sabor caseiro
+
+O gráfico tem sua visualização configurada usando um função logarítimica, escolha feita considerando a grande variação de valor entre os dados de estabelecimentos e a variável Outro, com volume de 36,556,361 reais. Assim, a visualização das distâncias de volume pela diferença de tamanho das barras torna-se mais visível. 
 
